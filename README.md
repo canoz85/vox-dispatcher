@@ -156,6 +156,17 @@ For each target system:
 
 This keeps Vox-Dispatcher as a control plane while each target remains owner of execution policy.
 
+## FUxA Visualization
+
+[FUxA](https://github.com/frangoteam/FUXA) (`@frangoteam/fuxa-min`) can be used as a browser-based HMI to visualize the MQTT topics published by Vox-Dispatcher and connected applications.
+
+See **[docs/fuxa-integration.md](docs/fuxa-integration.md)** for:
+
+- Installing and starting `fuxa-min` 1.3.1 on Windows
+- Importing and exporting a FUxA project JSON (e.g. `SnakeMonitor.json`)
+- Fixing a locked project
+- Resetting the FUxA database directory (`dbDir`) on Windows
+
 ## Security and Safety Notes
 
 When bridging language to execution, always add guardrails:
